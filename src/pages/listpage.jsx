@@ -26,7 +26,7 @@ export default function  SpotList () {
         <>
         <h1> LISTE DE TOUS LES LIEU </h1>
         
-        {SpotList.map((e) => (
+        {Spots.map((e) => (
             <li key={e.id}>
                 <div>
                     <h2>{e.title} - {e.type} </h2>
