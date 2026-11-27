@@ -85,7 +85,7 @@ export default function CreateSpot () {
                 onChange={(e) => setnewFeatures((prev) => ({...prev,i}))}/>
                 {console.log(newFeatures)}
                
-                {/* //JE N'arrive pas a récupérer les informations  */}
+        
                 
             </div>)}
 
